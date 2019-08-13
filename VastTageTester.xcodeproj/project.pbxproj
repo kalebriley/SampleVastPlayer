@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52818BA60D9D67F3C03B5BCB /* libPods-VastTageTester.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B95AA3EC6B785B16A62DBD /* libPods-VastTageTester.a */; };
+		FD61BD4922FC803B00AEA64C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD61BD4822FC803B00AEA64C /* AppDelegate.swift */; };
+		FD61BD4B22FC803B00AEA64C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD61BD4A22FC803B00AEA64C /* ViewController.swift */; };
+		FD61BD4E22FC803B00AEA64C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD61BD4C22FC803B00AEA64C /* Main.storyboard */; };
+		FD61BD5022FC803D00AEA64C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD61BD4F22FC803D00AEA64C /* Assets.xcassets */; };
+		FD61BD5322FC803D00AEA64C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD61BD5122FC803D00AEA64C /* LaunchScreen.storyboard */; };
+		FD61BD5E22FC803D00AEA64C /* VastTageTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD61BD5D22FC803D00AEA64C /* VastTageTesterTests.swift */; };
+		FD61BD6922FC803D00AEA64C /* VastTageTesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD61BD6822FC803D00AEA64C /* VastTageTesterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD61BD5A22FC803D00AEA64C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD61BD3D22FC803B00AEA64C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD61BD4422FC803B00AEA64C;
+			remoteInfo = VastTageTester;
+		};
+		FD61BD6522FC803D00AEA64C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD61BD3D22FC803B00AEA64C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD61BD4422FC803B00AEA64C;
+			remoteInfo = VastTageTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44B95AA3EC6B785B16A62DBD /* libPods-VastTageTester.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VastTageTester.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC5D910498AB2CD8A862FB1 /* Pods-VastTageTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VastTageTester.release.xcconfig"; path = "Target Support Files/Pods-VastTageTester/Pods-VastTageTester.release.xcconfig"; sourceTree = "<group>"; };
+		BABB4D71BBC20B2154729F32 /* Pods-VastTageTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VastTageTester.debug.xcconfig"; path = "Target Support Files/Pods-VastTageTester/Pods-VastTageTester.debug.xcconfig"; sourceTree = "<group>"; };
+		FD61BD4522FC803B00AEA64C /* VastTageTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VastTageTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD61BD4822FC803B00AEA64C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD61BD4A22FC803B00AEA64C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD61BD4D22FC803B00AEA64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD61BD4F22FC803D00AEA64C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD61BD5222FC803D00AEA64C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD61BD5422FC803D00AEA64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD61BD5922FC803D00AEA64C /* VastTageTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VastTageTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD61BD5D22FC803D00AEA64C /* VastTageTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VastTageTesterTests.swift; sourceTree = "<group>"; };
+		FD61BD5F22FC803D00AEA64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD61BD6422FC803D00AEA64C /* VastTageTesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VastTageTesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD61BD6822FC803D00AEA64C /* VastTageTesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VastTageTesterUITests.swift; sourceTree = "<group>"; };
+		FD61BD6A22FC803D00AEA64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD61BD4222FC803B00AEA64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52818BA60D9D67F3C03B5BCB /* libPods-VastTageTester.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD61BD5622FC803D00AEA64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD61BD6122FC803D00AEA64C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5A8F2E32FE9B2DA14DF4B17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BABB4D71BBC20B2154729F32 /* Pods-VastTageTester.debug.xcconfig */,
+				9AC5D910498AB2CD8A862FB1 /* Pods-VastTageTester.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E39063F7D8DA63CCBE8D93E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44B95AA3EC6B785B16A62DBD /* libPods-VastTageTester.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD61BD3C22FC803B00AEA64C = {
+			isa = PBXGroup;
+			children = (
+				FD61BD4722FC803B00AEA64C /* VastTageTester */,
+				FD61BD5C22FC803D00AEA64C /* VastTageTesterTests */,
+				FD61BD6722FC803D00AEA64C /* VastTageTesterUITests */,
+				FD61BD4622FC803B00AEA64C /* Products */,
+				C5A8F2E32FE9B2DA14DF4B17 /* Pods */,
+				E39063F7D8DA63CCBE8D93E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD61BD4622FC803B00AEA64C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD61BD4522FC803B00AEA64C /* VastTageTester.app */,
+				FD61BD5922FC803D00AEA64C /* VastTageTesterTests.xctest */,
+				FD61BD6422FC803D00AEA64C /* VastTageTesterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD61BD4722FC803B00AEA64C /* VastTageTester */ = {
+			isa = PBXGroup;
+			children = (
+				FD61BD4822FC803B00AEA64C /* AppDelegate.swift */,
+				FD61BD4A22FC803B00AEA64C /* ViewController.swift */,
+				FD61BD4C22FC803B00AEA64C /* Main.storyboard */,
+				FD61BD4F22FC803D00AEA64C /* Assets.xcassets */,
+				FD61BD5122FC803D00AEA64C /* LaunchScreen.storyboard */,
+				FD61BD5422FC803D00AEA64C /* Info.plist */,
+			);
+			path = VastTageTester;
+			sourceTree = "<group>";
+		};
+		FD61BD5C22FC803D00AEA64C /* VastTageTesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD61BD5D22FC803D00AEA64C /* VastTageTesterTests.swift */,
+				FD61BD5F22FC803D00AEA64C /* Info.plist */,
+			);
+			path = VastTageTesterTests;
+			sourceTree = "<group>";
+		};
+		FD61BD6722FC803D00AEA64C /* VastTageTesterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD61BD6822FC803D00AEA64C /* VastTageTesterUITests.swift */,
+				FD61BD6A22FC803D00AEA64C /* Info.plist */,
+			);
+			path = VastTageTesterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD61BD4422FC803B00AEA64C /* VastTageTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD61BD6D22FC803D00AEA64C /* Build configuration list for PBXNativeTarget "VastTageTester" */;
+			buildPhases = (
+				91C1ACA5A5D1D9DAA144A05C /* [CP] Check Pods Manifest.lock */,
+				FD61BD4122FC803B00AEA64C /* Sources */,
+				FD61BD4222FC803B00AEA64C /* Frameworks */,
+				FD61BD4322FC803B00AEA64C /* Resources */,
+				93EB4EB1577E93170F10F9C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VastTageTester;
+			productName = VastTageTester;
+			productReference = FD61BD4522FC803B00AEA64C /* VastTageTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD61BD5822FC803D00AEA64C /* VastTageTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD61BD7022FC803D00AEA64C /* Build configuration list for PBXNativeTarget "VastTageTesterTests" */;
+			buildPhases = (
+				FD61BD5522FC803D00AEA64C /* Sources */,
+				FD61BD5622FC803D00AEA64C /* Frameworks */,
+				FD61BD5722FC803D00AEA64C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD61BD5B22FC803D00AEA64C /* PBXTargetDependency */,
+			);
+			name = VastTageTesterTests;
+			productName = VastTageTesterTests;
+			productReference = FD61BD5922FC803D00AEA64C /* VastTageTesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD61BD6322FC803D00AEA64C /* VastTageTesterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD61BD7322FC803D00AEA64C /* Build configuration list for PBXNativeTarget "VastTageTesterUITests" */;
+			buildPhases = (
+				FD61BD6022FC803D00AEA64C /* Sources */,
+				FD61BD6122FC803D00AEA64C /* Frameworks */,
+				FD61BD6222FC803D00AEA64C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD61BD6622FC803D00AEA64C /* PBXTargetDependency */,
+			);
+			name = VastTageTesterUITests;
+			productName = VastTageTesterUITests;
+			productReference = FD61BD6422FC803D00AEA64C /* VastTageTesterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD61BD3D22FC803B00AEA64C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = tyko9;
+				TargetAttributes = {
+					FD61BD4422FC803B00AEA64C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FD61BD5822FC803D00AEA64C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FD61BD4422FC803B00AEA64C;
+					};
+					FD61BD6322FC803D00AEA64C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FD61BD4422FC803B00AEA64C;
+					};
+				};
+			};
+			buildConfigurationList = FD61BD4022FC803B00AEA64C /* Build configuration list for PBXProject "VastTageTester" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD61BD3C22FC803B00AEA64C;
+			productRefGroup = FD61BD4622FC803B00AEA64C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD61BD4422FC803B00AEA64C /* VastTageTester */,
+				FD61BD5822FC803D00AEA64C /* VastTageTesterTests */,
+				FD61BD6322FC803D00AEA64C /* VastTageTesterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD61BD4322FC803B00AEA64C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD61BD5322FC803D00AEA64C /* LaunchScreen.storyboard in Resources */,
+				FD61BD5022FC803D00AEA64C /* Assets.xcassets in Resources */,
+				FD61BD4E22FC803B00AEA64C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD61BD5722FC803D00AEA64C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD61BD6222FC803D00AEA64C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91C1ACA5A5D1D9DAA144A05C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VastTageTester-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93EB4EB1577E93170F10F9C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VastTageTester/Pods-VastTageTester-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VastTageTester/Pods-VastTageTester-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VastTageTester/Pods-VastTageTester-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD61BD4122FC803B00AEA64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD61BD4B22FC803B00AEA64C /* ViewController.swift in Sources */,
+				FD61BD4922FC803B00AEA64C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD61BD5522FC803D00AEA64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD61BD5E22FC803D00AEA64C /* VastTageTesterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD61BD6022FC803D00AEA64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD61BD6922FC803D00AEA64C /* VastTageTesterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD61BD5B22FC803D00AEA64C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD61BD4422FC803B00AEA64C /* VastTageTester */;
+			targetProxy = FD61BD5A22FC803D00AEA64C /* PBXContainerItemProxy */;
+		};
+		FD61BD6622FC803D00AEA64C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD61BD4422FC803B00AEA64C /* VastTageTester */;
+			targetProxy = FD61BD6522FC803D00AEA64C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD61BD4C22FC803B00AEA64C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD61BD4D22FC803B00AEA64C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD61BD5122FC803D00AEA64C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD61BD5222FC803D00AEA64C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD61BD6B22FC803D00AEA64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD61BD6C22FC803D00AEA64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD61BD6E22FC803D00AEA64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BABB4D71BBC20B2154729F32 /* Pods-VastTageTester.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFKF2EE8PE;
+				INFOPLIST_FILE = VastTageTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyko9.VastTageTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD61BD6F22FC803D00AEA64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC5D910498AB2CD8A862FB1 /* Pods-VastTageTester.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFKF2EE8PE;
+				INFOPLIST_FILE = VastTageTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyko9.VastTageTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD61BD7122FC803D00AEA64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFKF2EE8PE;
+				INFOPLIST_FILE = VastTageTesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyko9.VastTageTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VastTageTester.app/VastTageTester";
+			};
+			name = Debug;
+		};
+		FD61BD7222FC803D00AEA64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFKF2EE8PE;
+				INFOPLIST_FILE = VastTageTesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyko9.VastTageTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VastTageTester.app/VastTageTester";
+			};
+			name = Release;
+		};
+		FD61BD7422FC803D00AEA64C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFKF2EE8PE;
+				INFOPLIST_FILE = VastTageTesterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyko9.VastTageTesterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VastTageTester;
+			};
+			name = Debug;
+		};
+		FD61BD7522FC803D00AEA64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFKF2EE8PE;
+				INFOPLIST_FILE = VastTageTesterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyko9.VastTageTesterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VastTageTester;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD61BD4022FC803B00AEA64C /* Build configuration list for PBXProject "VastTageTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD61BD6B22FC803D00AEA64C /* Debug */,
+				FD61BD6C22FC803D00AEA64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD61BD6D22FC803D00AEA64C /* Build configuration list for PBXNativeTarget "VastTageTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD61BD6E22FC803D00AEA64C /* Debug */,
+				FD61BD6F22FC803D00AEA64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD61BD7022FC803D00AEA64C /* Build configuration list for PBXNativeTarget "VastTageTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD61BD7122FC803D00AEA64C /* Debug */,
+				FD61BD7222FC803D00AEA64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD61BD7322FC803D00AEA64C /* Build configuration list for PBXNativeTarget "VastTageTesterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD61BD7422FC803D00AEA64C /* Debug */,
+				FD61BD7522FC803D00AEA64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD61BD3D22FC803B00AEA64C /* Project object */;
+}
